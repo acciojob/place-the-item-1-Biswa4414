@@ -1,2 +1,20 @@
-
-/* Your CSS Code here. */
+.box{
+	width:100px;
+	height:100px;
+	padding:10px;
+	font-size:60px;
+}
+.box.blue{
+	background-color:blue;
+}
+.box.green{
+	background-color:green;
+}
+.box.red{
+	background-color:red;
+}
+.holder{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
